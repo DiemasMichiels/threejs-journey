@@ -13,7 +13,7 @@ scene.add(mesh)
 // Sizes
 const sizes = {
   width: 800,
-  height: 600
+  height: 600,
 }
 
 // Camera
@@ -24,7 +24,7 @@ scene.add(camera)
 // Renderer
 const canvas = document.querySelector('.webgl')
 const renderer = new THREE.WebGLRenderer({
-  canvas
+  canvas,
 })
 renderer.setSize(sizes.width, sizes.height)
 
